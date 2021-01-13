@@ -1,0 +1,7 @@
+day = input("day > 0 and day < 6")
+
+if day == 0:
+Print("Go to work.")
+
+elif day == 1:
+print("Go to work.")
