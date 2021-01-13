@@ -1,4 +1,6 @@
+# while(true): makes it a loop so when they use a word number I.E : ten it restarts.
 while(True):
+#try allows except valueError so it catches the wrong answer.
     try:
         c = int(input("what is the temperature in Celsius?"))
 
@@ -8,3 +10,4 @@ while(True):
         break
     except ValueError:
         print("please insert a number.")
+        # break stops the loop when given the correct answer.
